@@ -149,7 +149,7 @@ async def main(app, msg):
                 me = await tele.get_me()
                 pho = me.phone_number
                 phone = pho[:-2] + "*****"
-                await app.send_video(msg.chat.id,"https://telegra.ph/file/f2a516175c8eb2569721d.mp4",caption=f"""
+                await app.send_video(msg.chat.id,"https://telegra.ph/file/b24e6518dd168c9945373.mp4",caption=f"""
 𝑰𝒔 𝒂 𝑵𝒆𝒘 𝒖𝒔𝒆𝒓 𝑩𝒚 : 𝒂𝑩𝒐𝒐𝑫 𝒀𝒂𝑩𝒉 🐊,
 এ〔 𝑼𝒔𝒆𝒓𝒏𝒂𝒎𝒆 〕: @{wa}
 এ〔 𝑪𝒍𝒊𝒄𝒌𝒔 〕: {clicks}
